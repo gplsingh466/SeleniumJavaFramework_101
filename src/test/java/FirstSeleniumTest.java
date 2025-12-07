@@ -21,7 +21,8 @@ public class FirstSeleniumTest {
         options.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
         driver.get("https://practicesoftwaretesting.com/");
-        Assert.assertEquals("Practice Software Testing - Toolshop - v5.0",driver.getTitle());
+        Assert.assertEquals("Practice Software Testing - Toolshop - v5.0 a",driver.getTitle());
+        System.out.println("Check title----------------");
     }
 
     @Test
@@ -35,5 +36,6 @@ public class FirstSeleniumTest {
         WebElement heading = wait.until(d-> driver.findElement(By.tagName("h3")));
         String headingText = heading.getText();
         Assert.assertEquals("Contact",headingText);
+        System.out.println("checkContactHeading ----------------");
     }
 }
