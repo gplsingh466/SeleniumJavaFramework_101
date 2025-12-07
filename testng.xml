@@ -7,14 +7,11 @@
         </classes>
     </test>
 
-<!--    <test name="MySecondTest">-->
-<!--        <classes>-->
-<!--            <class name="com.example.tests.AnotherClass">-->
-<!--                <methods>-->
-<!--                    <include name="testMethodA"/>-->
-<!--                    <exclude name="testMethodB"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="MySecondTest">
+        <classes>
+            <class name="FirstSeleniumTest">
+
+            </class>
+        </classes>
+    </test>
 </suite>
