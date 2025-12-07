@@ -21,7 +21,7 @@ public class FirstSeleniumTest {
         options.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
         driver.get("https://practicesoftwaretesting.com/");
-        Assert.assertEquals("Practice Software Testing - Toolshop - v5.0 a",driver.getTitle());
+        Assert.assertEquals("Practice Software Testing - Toolshop - v5.0",driver.getTitle());
         System.out.println("Check title----------------");
     }
 
